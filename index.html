@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teste Transmissão</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link href="css/chat.css" rel="stylesheet" />
+    <script src="adapter.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container ">
+        <div class="col-md-2">
+      <a class="navbar-brand" href="#">travel</a>
+    </div>
+      <div class="col-md-10">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">SALA 1</a>
+        </li>
+        <li class="nav-item sala-disable">
+          <a class="nav-link" href="#">SALA 2</a>
+        </li>
+        <li class="nav-item sala-disable">
+          <a class="nav-link" href="#">SALA 3</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </nav>
+  </div>
+  
+  <div class="container cont-idioma">
+    <div class="col-md-12 idiomas">
+      <p>Idioma</p>
+      <a href="#" class="active">
+        <img src="images/brasil.png" width="30">
+      </a>
+      <a href="#">
+      <img src="images/espanha.png" width="30">
+    </a>
+    <a href="#">
+      <img src="images/estados-unidos.png" width="30">
+    </a>
+    </div>
+  </div>
+
+
+    <div class="container">
+      <div class="row shadow">
+        <div id="camera-container" class="col-xs-8">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/137857207" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div id="chat-container" class="col-xs-4">
+          <div class="chatroom">
+            <div class="chatroom_section chatroom_header">
+              <div class="chatroom_section chatroom_header_name">CHAT</div>
+            </div>
+            <div class="chatroom_section chatroom_history">
+                    <ul class="chatroom_history_list">
+                        <li class="chatroom_history_list_item chatroom_history_list_left chatroom_history_list_item--grey">
+                          <p><strong>Victor</strong><br> Mensagem do espectador com uma dúvida ou opinião.</p>
+                         </li>
+                        <li class="chatroom_history_list_item chatroom_history_list_right chatroom_history_list_item--blue">
+                          <p><strong>R:</strong> Boa noite, <strong>Victor</strong>!<br>Nossas projeções apontam para uma pontuação ao redor de 115 mil sacas até o final desse ano de 2021. É importante mencionar alguns pontos sobre.</p>
+                          </li>
+                        <li class="chatroom_history_list_item chatroom_history_list_left chatroom_history_list_item--grey">
+                          <p><strong>Mariana</strong><br>Minha dúvida é sobre a prospecção de 2022?</p>
+                          </li>
+                    </ul>
+              <div class="chatroom_history_entering">
+                <input type="text" class="chatroom_form_inputbox" placeholder="Pensando mais a longo prazo, a valorização de fatores subjetivos obstaculiza a apreciação da importância?">
+              </div>
+            </div>
+            <div class="chatroom_section chatroom_form">
+                <form action="">
+                    
+                    <button type="submit" class="chatroom_form_sendBtn">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
